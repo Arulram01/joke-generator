@@ -7,5 +7,4 @@ Simple Website with Joke Generator
 Arulram Thangeswaran
 
 ## Description
-
 It is a website which contain a joke generator 
