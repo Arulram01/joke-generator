@@ -1,4 +1,4 @@
-# projet Title
+# Projet Title
 
 Simple Website with Joke Generator
 
