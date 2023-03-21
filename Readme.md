@@ -4,7 +4,7 @@ Simple Website with Joke Generator
 
 ## Author
 
-Arulram Thangeswaran
+Thangeswaran Arulram
 
 ## Description
 It is a website which contain a joke generator 
