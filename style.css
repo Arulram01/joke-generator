@@ -1,4 +1,4 @@
-[21:55, 21/03/2023] Rathess Anna Pera: @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -42,25 +42,20 @@ h3 {
 }
 
 .btn {
-  back…
-[22:08, 21/03/2023] Rathess Anna Pera: const jokeEl = document.getElementById('joke');
-const jokeBtn = document.getElementById('jokeBtn');
+  background-color: #9f68e0;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-jokeBtn.addEventListener('click', generateJoke);
+.btn:active {
+  transform: scale(0.98);
+}
 
-generateJoke();
-
-// USING ASYNC/AWAIT
-async function generateJoke() {
-  const config = {
-    headers: {
-      Accept: 'application/json',
-    },
-  };
-
-  const res = await fetch('https://icanhazdadjoke.com', config);
-
-  const data = await res.json();
-
-  jokeEl.innerHTML = data.joke;
+.btn:focus {
+  outline: 0;
 }
